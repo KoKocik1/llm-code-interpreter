@@ -37,9 +37,14 @@ code-interpreter/
    ```bash
    pip install -r requirements.txt
    ```
-3. Create a `.env` file in the root directory with your OpenAI API key:
+3. Create a `.env copy` file in the root directory with your OpenAI API key:
    ```
-   OPENAI_API_KEY=your_api_key_here
+   OPENAI_API_KEY=
+   LANGCHAIN_API_KEY=
+   LANGCHAIN_TRACING_V2=
+   LANGCHAIN_PROJECT=
+   PINECONE_API_KEY=
+   PINECONE_INDEX_NAME=
    ```
 
 ## Usage
